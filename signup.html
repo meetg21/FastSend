@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+
+</head>
+<style>
+
+.main {
+ 
+  background-color: black;
+  
+}    
+.box {
+  background-color: white;
+  margin: 15% auto 30% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+  input[type=text], input[type=password], input[type=email] {
+  width: 40%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: black;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: white;
+  outline: none;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+</style>
+<body>
+<div class="main">
+    <form class ="box"style="border:1px solid black">
+
+    <h1>Sign Up</h1>
+    <p>Welcome :)</p>
+    <hr>
+    <label for="Name"><b>Name</b></label>
+    <input type="text" placeholder="Enter your first name " name="Name" required>
+    <label for="Surname"><b>Surname</b></label>
+    <input type="text" placeholder="Enter your last name " name="Surname" required>
+
+    <br>
+    <label for="Email"><b>Email</b></label>
+    <input type="email" placeholder="Enter your mail addresss " name="Email" required>
+    
+    </form>
+</div>
+
+    
+</body>
+</html>
