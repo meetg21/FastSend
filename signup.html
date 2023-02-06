@@ -8,39 +8,58 @@
 
 </head>
 <style>
-
-.main {
- 
-  background-color: black;
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
   
-}    
-.box {
-  background-color: white;
-  margin: 20% auto 20% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 35%; /* Could be more or less, depending on screen size */
-}
-  input[type=text], input[type=tel], input[type=email] {
-  width: 35%;
-  padding: 15px;
-  margin: 15px 0 2px 0;
-  display: inline-block;
-  border: 20;
-  background: black;
-}
-input[type=text]:focus, input[type=email]:focus ,input[type=tel]:focus {
-  background-color: white;
-  outline: none;
-}
-
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+  .box {
+    padding: 30px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
 </style>
+
 <body>
 <div class="main">
     <form class ="box"style="border:1px solid black">
 
-    <h1>Sign Up</h1>
+    <h1>Signup</h1>
     <p>Welcome :)</p>
     <hr>
     <label for="Name"><b>Name</b></label>
