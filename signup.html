@@ -5,59 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
+    <link rel="stylesheet" href="signup.css">
 
 </head>
-<style>
-  .main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .box {
-    padding: 30px;
-    width: 400px;
-    background-color: white;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  input[type="text"], input[type="email"], input[type="tel"] {
-    width: 100%;
-    padding: 10px;
-    font-size: 18px;
-    margin-bottom: 20px;
-    border: 1px solid lightgray;
-    border-radius: 5px;
-  }
-  
-  input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: green;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-  }
-</style>
+
 
 <body>
 <div class="main">
-    <form class ="box"style="border:1px solid black">
+    <form class ="box">
 
     <h1>Signup</h1>
     <p>Welcome :)</p>
@@ -73,7 +28,11 @@
     <br>
     <label for ="Mobile"><b>Mobile</b></label>
     <input type="tel"placeholder="Enter your mob no." name ="Mobile" required>
-    
+    <br>
+    <label for="Password"><b>Password</b></label>
+    <input type="password" placeholder="Create your password" name="password" required>
+    <br>
+    <button>Signup </button>
     </form>
 </div>
 
