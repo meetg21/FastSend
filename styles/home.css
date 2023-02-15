@@ -13,7 +13,12 @@ nav {
   align-items: center;
   padding: 1rem;
 }
-
+footer{
+    background-color: #d3c3ef; 
+    padding: 10px; 
+    text-align: center;
+    color: white;
+}
 nav img {
   height: 50px;
 }
