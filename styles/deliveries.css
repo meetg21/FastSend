@@ -1,0 +1,12 @@
+.box{
+    width: 220px;
+    height: 270px;
+    border: 1px solid black;
+    align-items: center;
+}
+hr{
+    border: 1px solid black;
+}
+.li{
+    align-items: center;
+}
