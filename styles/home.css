@@ -28,10 +28,11 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #d3c3ef;
+  background-color:#0f6292 ;
   padding: 10px;
   text-align: center;
   color: white;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 
@@ -81,7 +82,7 @@ nav ul ul li {
 nav ul li:hover > ul {
   display: block;
   width:100vw;
-  position:absolute;
+  position:relative;
   justify-content: flex-end;
   top: 100%;
   left: 0;
@@ -97,8 +98,8 @@ nav ul li:hover > ul {
 }
 
 .main img {
-  max-width: 100%;
-  max-height: 100%;
+  width: auto;
+  height: 100%;
 }
 
 
