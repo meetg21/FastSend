@@ -19,6 +19,17 @@
 
 
 .active {
-    background-color: #CBC3E3;
+    background-color: #0f6292;
     color: white;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:#0f6292 ;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+  }
