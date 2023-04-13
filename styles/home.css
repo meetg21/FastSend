@@ -14,8 +14,12 @@ body {
 
 }
 .header{
-  background-color: #0f6292;
+  background-color:white;
   height:65px;
+}
+.bg-dark{
+  background-color:#0f6292;
+
 }
 
 .track{
@@ -23,8 +27,9 @@ body {
   font-size: 20px;
   position:absolute;
   top:22px;
-  right:250px;
+  right:275px;
   text-decoration: none;
+  font-family: 'Red Hat Display', sans-serif;
 
 }
 
@@ -33,33 +38,30 @@ body {
   font-size: 20px;
   position:absolute;
   top:22px;
-  right:325px;
+  right:400px;
   text-decoration: none;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 .signup{
-  background-color: #8DCBE6;
-  color:black;
+  /* background-color: #8DCBE6; */
+  color:white;
   font-size: 23px;
-  font-family: "Anybody", cursive;
-  padding-top:0.5rem;
-  height:35px;
-  width:90px;
+  font-family: 'Red Hat Display', sans-serif;
   text-decoration: none;
-  border-radius: 0.7rem;
   position:absolute;
-  right:20px;
-  top:15px;
+  right:18px;
+  top:13px;
 }
 
 .login{
   position:absolute;
-  font-family: "Anybody", cursive;
+  font-family: 'Red Hat Display', sans-serif;
   right:135px;
-  top:23px;
+  top:13px;
   color:white;
   text-decoration: none;
-  font-size: 23px;;
+  font-size: 23px;
 
 }
 
