@@ -13,12 +13,18 @@ body {
   left:10px;
 
 }
+
+.name{
+  position:relative;
+  left:15px;
+  font-size: 30px;
+}
 .header{
   background-color:white;
   height:65px;
 }
 .bg-dark{
-  background-color:#0f6292;
+  background-color:#0f6292 !important;
 
 }
 
