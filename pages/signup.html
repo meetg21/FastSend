@@ -15,7 +15,7 @@
             <img src="\images\customer.svg" alt="user" class="user" />
           </td>
           <td>
-            <form class="box" id="signup-form">
+            <form class="box" id="signup-form" method="POST" action="sucess.php">
               <h1>Sign up</h1>
               <p style="text-align: center">Let's get you started!</p>
               <hr style="align-items: center" />
@@ -23,21 +23,21 @@
               <input
                 type="text"
                 placeholder="Enter your full name "
-                name="Name"
+                name="name"
                 required
               />
               <label for="Email"><h3>Email</h3></label>
               <input
                 type="email"
                 placeholder="Enter your mail addresss "
-                name="Email"
+                name="email"
                 required
               /><br />
               <label for="Mobile"><h3>Mobile</h3></label>
               <input
                 type="tel"
                 placeholder="Enter your mob no."
-                name="Mobile"
+                name="mobile"
                 required
               />
               <br />
