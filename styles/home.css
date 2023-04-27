@@ -112,7 +112,9 @@ p {
 .main-conent {
   margin-left: 40px;
 }
-
+button {
+  color: white;
+}
 footer {
   position: relative;
   margin-top: 39%;
