@@ -5,25 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" type="" href="\styles\login-page.css">
+    <link rel="stylesheet" type="" href="../styles/login-page.css">
 </head>
 <body>
 <table cellsapcing="30">
     <tr>
         <td>
-            <img src ="\images\customer.svg" alt="user" class="user">
+            <img src ="../images/customer.svg" alt="user" class="user">
         </td>
         <td>
-    <form class="box box-user">
+    <form class="box box-user" action="../scriptss/authentication.php" method="POST">
     <h1>Login</h1>
     <p>Hello User, welcome back!</p>
     <hr>
     <label for="Email id"></label>
     <h3>Email</h3>
-    <input type="email" placeholder="Enter a valid email address" required>
+    <input name="email" type="email" placeholder="Enter a valid email address" required>
     <h3>Password</h3>
     <label for="Password"></label>
-    <input type="password"placeholder="Enter password" required><br>
+    <input name ="password"type="password"placeholder="Enter password" required><br>
     <a href="forgotpass.html">Forgot Password?</a><br><br>
     <button type="submit">Login</button>
     <p>Not a member? <a href="signup.html">Sign up now</a></p>   

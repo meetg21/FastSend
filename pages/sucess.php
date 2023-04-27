@@ -27,7 +27,7 @@
     //just hear cause it doesn't work without this
     if (mysqli_query($conn, $sql)) {}
 
-    // header("Location: ../pages/login-page.html");
+    header("Location: login-page.html");
 
     //close connection
     mysqli_close($conn);
