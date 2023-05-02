@@ -228,7 +228,7 @@
                 <h2> Place your order </h2>
             </div>
             <div class="d-flex">
-                <form action="" method="" class="order">
+                <form class="order"  action="../scriptss/placeorder.php" method="POST">
                     <h3> Sender's Details</h3>
                     <label>
                         <span class="fname"> Name <span class="required"> * </span></span>
@@ -255,46 +255,50 @@
                     <h3> Receiver's Details</h3>
                     <label>
                         <span class="fname"> Name <span class="required"> * </span></span>
-                        <input type="text" name="fname" placeholder="Enter your name" required>
+                        <input type="text" name="reciever_name" placeholder="Enter your name" required>
                     </label>
                     <label>
                         <span> Address <span class="required"> * </span></span>
-                        <input type="text" name="houseadd"
+                        <input type="text" name="addresss"
                             placeholder="Enter your housename, street name, city and landmarks" required>
                     </label>
                     <label>
                         <span> Postcode / ZIP <span class="required">*</span></span>
-                        <input type="text" name="city">
+                        <input type="text" name="postcode">
                     </label>
                     <label>
                         <span> Phone Number <span class="required">*</span></span>
-                        <input type="tel" name="city">
+                        <input type="tel" name="pnumber">
                     </label>
                     <label>
                         <span> Email Address <span class="required">*</span></span>
-                        <input type="email" name="city">
+                        <input type="email" name="email">
                     </label> <br><br>
                     <h3>Courier Details</h3>
                     <label class="courier">
                         <span>Weight of Courier<span class="required">*</span></span>
                         <div class="courier">
-                            <button type="button" class="weight-button"> Upto 1 kg </button>
+                            <span> Weight <span class="required">*</span></span>
+                            <input type="weight" name="weight">
+                            <!-- <button type="button" class="weight-button"> Upto 1 kg </button>
                             <button type="button" class="weight-button"> Upto 5 kg </button>
                             <button type="button" class="weight-button"> Upto 10 kg </button>
-                            <button type="button" class="weight-button"> Upto 20 kg </button>
+                            <button type="button" class="weight-button"> Upto 20 kg </button> -->
                         </div>
                     </label>
                     <label>
                       <span>What are you sending?<span class="required">*</span></span>
-                      <select>
+                      <select name="type">
                         <option value="documents">Documents</option>
                         <option value="food">Food</option>
                         <option value="cloth">Cloth</option>
                         <option value="parcel">Parcel</option>
                       </select>
+                      <button type="submit">Login</button>
                     </label>
                 </form>
-                <div class="Yorder">
+                
+                <!-- <div class="Yorder">
                     <table>
                         <tr>
                             <th colspan="2"> Your order </th>
@@ -327,9 +331,12 @@
                         </span>
                     </div>
                     <button type="button"> Place Order </button>
-                </div>
+                </div> -->
+            
             </div>
+        
         </div>
+   
     </body>
 
     </html>

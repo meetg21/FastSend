@@ -1,4 +1,4 @@
-<!-- MEET GANDU HAI  -->
+
 <?php      
     $servername = "localhost";
     $username = "root";

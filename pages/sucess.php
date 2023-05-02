@@ -18,11 +18,11 @@
     $pass = $_POST["password"];
 
     //hash the password
-    $hashed_pass = password_hash($pass, PASSWORD_DEFAULT);
+    // $hashed_pass = password_hash($pass, PASSWORD_DEFAULT);
 
     //insert data into database
     $sql = "INSERT INTO users (userid , username , email, mobile, pass)
-    VALUES ('$newid', '$username', '$email','$mobile', '$hashed_pass')";
+    VALUES ('$newid', '$username', '$email','$mobile', '$pass')";
     
     //just hear cause it doesn't work without this
     if (mysqli_query($conn, $sql)) {}
@@ -102,3 +102,5 @@
   </script>
 </body>
 </html>
+
+
