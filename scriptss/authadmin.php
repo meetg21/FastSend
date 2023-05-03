@@ -11,7 +11,7 @@
     
 
     //queries to get the password and the userid
-    $query = "SELECT pass,mobile FROM users WHERE email='$email'";
+    $query = "SELECT pass FROM admins WHERE email='$email'";
    
     // $query2 = "SELECT userid FROM users WHERE email='$email'";
     $result = mysqli_query($conn, $query);
@@ -40,7 +40,7 @@
             // echo $pass;
             // echo $row['pass'];
             //navigate to home page
-            header("Location: ../pages/order.html");
+            header("Location: ../pages/admin.php");
             exit();
         } else {
             //stay on the index page

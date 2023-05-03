@@ -117,11 +117,13 @@ button {
   color: white;
 }
 footer {
-  position: relative;
-  margin-top: 39%;
+  position: absolute;
+  /* margin-top: 39%; */
+  bottom:0px;
   width: 100%;
   background-color: #0f6292;
-  padding: 8px;
+  /* background-color: black; */
+  /* padding: 8px; */
   text-align: center;
   color: white;
   font-family: "Red Hat Display", sans-serif;
