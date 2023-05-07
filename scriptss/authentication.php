@@ -40,7 +40,8 @@
             // echo $pass;
             // echo $row['pass'];
             //navigate to home page
-            header("Location: ../pages/order.html");
+
+            header("Location: ../pages/middle.php");
             exit();
         } else {
             //stay on the index page

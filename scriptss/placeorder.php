@@ -52,7 +52,9 @@ $sql = "INSERT INTO reciever (reciever_id, reciever_name, addresss, postcode, pn
 
 //execute the SQL statement
 if (mysqli_multi_query($conn, $sql)) {
-    echo "Record created";
+    echo "Record created .<br>";
+     echo "Your order id is $newid and you can use it for tracking.";
+    
 } else {
     //error message
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
