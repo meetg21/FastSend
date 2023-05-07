@@ -4,7 +4,7 @@
 FastSend project is a Courier Managment website. It utilizes a sleek and minimalistic design language and has some features as listed below.
 
 ## :sparkles:**Features**
-The features aim to provide both users and admins a smooth experience in the entire process of placing anorder, to managing it and recieving the same.
+The features aim to provide both users and admins a smooth experience in the entire process of placing an order, to managing it and recieving the same.
 
 + Simple and Clean design
 + User registeration and Login System
