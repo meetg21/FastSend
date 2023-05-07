@@ -7,8 +7,50 @@ body{
     font-family: 'Red Hat Display', sans-serif;
     margin: 0;
 }
+.header{
+    height:25px;
+    background-color: #0f6292;
+  
+  }
+    
+  #logo{
+    position:absolute;
+    height:145px;
+    top:-27px;
+    left:-20px;
+  }
+  #fastsend{
+    position:absolute;
+    top:30px;
+    left:94px;
+    font-weight: bold;
+    font-size: large;
+    color:black;
+  }
+  
+  #homepage{
+    position:absolute;
+    top:30px;
+    right:30px;
+    color:black;
+    font-family: "Red Hat Display", sans-serif;
+    font-size:20px;
+    text-decoration: none;
+  }
+  
+  #hello{
+    position:absolute;
+    top:10px;
+    right:730px;
+    color:black;
+    font-weight: bold;
+    font-size: 40px;
+  
+  }
+  
 
-img{
+
+#admin{
     height: 400px;
 }
 .user{
@@ -77,14 +119,14 @@ button[type="submit"]{
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
+    position:absolute;
+    bottom : 0px;
     width: 100%;
-    background-color:#0f6292 ;
-    padding: 10px;
+    background-color: #0f6292;
+    /* padding: 8px; */
     text-align: center;
     color: white;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
   }
   
   
